@@ -14,7 +14,7 @@ def capas():
     return capa
 
 def infs():
-    df = pd.read_excel('imovel_infos.xltx')
+    df = pd.read_csv('imovel_infos.csv', sep=',')
 
     dict_infos = {}
 
