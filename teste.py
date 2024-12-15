@@ -15,7 +15,7 @@ def capas():
     return capa
 
 def infs():
-    df = pd.read_excel(r'C:\Users\jucar\Documents\Landpage\page001\imovel_infos.xltx')
+    df = pd.read_excel(r'imovel_infos.xltx')
 
     dict_infos = {}
 
