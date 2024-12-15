@@ -5,7 +5,6 @@ import pandas as pd
 
 caminho = os.listdir('./midia')
 
-
 def capas():
     capa = []
     caminho_midia = os.listdir('./midia')
@@ -15,7 +14,7 @@ def capas():
     return capa
 
 def infs():
-    df = pd.read_excel(r'imovel_infos.xltx')
+    df = pd.read_excel('imovel_infos.xltx')
 
     dict_infos = {}
 
@@ -49,5 +48,3 @@ def imagens():
         imagem = os.listdir(f'./midia/{midia}')
         image.append(f'./midia/{midia}/{imagem}')
     return image
-
-print(capas())
