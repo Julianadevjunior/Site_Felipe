@@ -14,7 +14,7 @@ def capas():
     return capa
 
 def infs():
-    df = pd.read_csv('imovel_infos.csv', sep=',')
+    df = pd.read_csv('Sem título 1.csv', sep=',')
 
     dict_infos = {}
 
