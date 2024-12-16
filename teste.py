@@ -3,7 +3,7 @@ from PIL import Image
 import os
 import pandas as pd
 
-caminho = os.listdir('./midia')
+caminho = os.listdir('midia')
 
 def capas():
     capa = []
